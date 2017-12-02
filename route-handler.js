@@ -19,16 +19,8 @@ router.route('/')
         console.log("TROLOLOLOL");
         console.log(req.body);
 
-        // Validate JSON body using whatever method you choose
-        // var newTodo = filter(req.body);
-        // if (!validate(newTodo)) {
-        //     req.log.error('Invalid todo body'); // Bunyan logger available on req
-        //     return next(new errors.UnprocessableEntityError('Invalid todo resource body', {errors: validate.errors}));
-        // }
+        // Plot JSON values.
 
-        // ...Save to backend...
-
-        // res.location(req.protocol + '://' + req.get('Host') + req.baseUrl + '/api/' + newTodo.id);
         res.status(201); // Created
         res.json({"status": 0});
     });

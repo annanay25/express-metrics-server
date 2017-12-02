@@ -12,7 +12,7 @@ var initRoutes = function(app, options) {
   console.log("Initiating routes \n");
     // Set up routes off of base URL path
     app.use(options.baseUrlPath, [
-        require('./todo-routes')
+        require('./route-handler')
     ]);
 };
 
