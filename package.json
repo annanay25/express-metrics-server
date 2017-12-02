@@ -1,0 +1,17 @@
+{
+  "name": "temp_server",
+  "version": "1.0.0",
+  "description": "Server for QoE plugin",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "author": "Annanay Agarwal (annanay25)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "express-api-server": "0.0.8",
+    "mongoose": "~3.6.13"
+  }
+}
